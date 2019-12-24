@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fee5bed7a3ce448abac9097a9497388c" Name="Diagram1">
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.ChiTietChucVu" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.ChiTietHoaDonBanLaptop" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.ChiTietHoaDonNhapHang" Width="1.5" PointX="8.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.ChucVu" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.HoaDonBanHang" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.HoaDonNhapHang" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.KhachHang" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.Laptop" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.LoaiLT" Width="1.5" PointX="3.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.NhaCungCap" Width="1.5" PointX="3.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.NhanVien" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMS_CuoiKiModel.TaiKhoan" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__ChiTietCh__MaChu__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__ChiTietChucV__ID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__ChiTietHo__MaHDB__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__ChiTietHoa__MaLT__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__ChiTietHo__MaHDN__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__ChiTietHoa__MaLT__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__HoaDonBanH__MaKH__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__HoaDonBanH__MaNV__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__HoaDonNha__MaNCC__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__HoaDonNhap__MaNV__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__Laptop__Loai__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMS_CuoiKiModel.FK__TaiKhoan__ID__173876EA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
